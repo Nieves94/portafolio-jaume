@@ -1,0 +1,23 @@
+.button-icon {
+    background-color: var(--white);
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+    padding-block: 13px;
+    padding-inline: 13px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-icon img {
+    vertical-align: middle;
+}
+
+.button-icon.is-only-icon {
+    background-color: unset;
+    border: none;
+}
+
+.button-icon img.is-md-size {
+    inline-size: 60px;
+    block-size: 60px;
+}

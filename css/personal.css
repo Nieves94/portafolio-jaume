@@ -1,0 +1,24 @@
+.personal-message {
+    padding-inline: 150px;
+    padding-block: 200px;
+    text-align: center;
+}
+
+.personal-message p {
+    font: var(--body3);
+}
+
+.personal-message p:nth-child(2) {
+    font: var(--headline5);
+}
+
+@media screen and (max-width: 768px) {
+    .personal-message {
+        padding-inline: 16px;
+        padding-block: 40px;
+    }
+
+    .personal-message p {
+        font: var(--body4);
+    }
+}

@@ -1,0 +1,6 @@
+@import "../css/testimony.css";
+@import "../css/project.css";
+
+.project-testimony:nth-child(odd) .project-image {
+    order: 2;
+}

@@ -1,0 +1,49 @@
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    margin-inline: 80px;
+    margin-block: 40px;
+    padding-inline: 80px;
+    padding-block: 80px;
+    border: 3.98px solid;
+    border-image-source: radial-gradient(83.14% 78.52% at -12.32% -18.69%, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(83.14% 78.52% at -12.32% -18.69%, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+}
+
+.testimony p {
+    font: var(--body3);
+}
+
+.testimony p:nth-child(3) {
+    font: var(--headline5);
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.testimony-image img {
+    inline-size: 80px;
+    block-size: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .testimony {
+        padding-inline: 24px;
+        padding-block: 24px;
+        margin-block: 40px;
+    }
+
+    .testimony p {
+        font: var(--body5);
+    }
+
+    .testimony p:nth-child(3) {
+        font: var(--caption);
+    }
+}
